@@ -3,6 +3,7 @@ import Counter from './countery';
 import Team from './team';
 import Users from './users';
 import Friends from './Friends';
+import Posts from './Posts';
 
 function App() {
 
@@ -22,11 +23,11 @@ function App() {
     <>
       <h1>Vite + React</h1>
       
+      <Posts></Posts>
+      
       <Friends></Friends>
 
-      
       <Users></Users>
-
 
       <Team></Team>
 
